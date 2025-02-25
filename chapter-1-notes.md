@@ -72,8 +72,88 @@
   - $12 - 2(3 - (6 - 5)^2 + (4 - 5)^3 - 2 \div(3-5)) = 12 - 2(3 - 1 - 1 + 1) = 12 - 4 = 8$
   - $5l \div 3l \times (9-6) = \frac{5l}{3l} \times 3 = \frac{5}{3} \cdot \frac{3}{1} = 5$
   - $-5 + 2(3 - (4 - 5)^3 - (3 - 4)^2 + 3 \div(4-1) = -5 + 2(3 - -1 - 1 + 3 \div3) = -5 + 2(3 + 1 - 1 + 1) = -5 + 2(4) = -5 + 8 = 3$
+    - If $a > 0 then a^{even or odd} = positive$
+    - If $a < 0 and a^{even} = positive$ if $a < 0 and a^{odd} = negative$
+### 1.1 Section Exercises
+- $10 + 2 \times (5 - 3)$
+- $6 \div 2 - (81 \div 3^2)$
 ## 1.2 Exponents and Scientific Notation
+- Exponents is a base multiplied by itself multiple times
+- $a^n = n^{th} power of a = n^{th} degree of a$
+  - $a$ is the base and $n$ is our exponent/degree
+  - Ex. $5^3 = 5 \cdot 5 \cdot 5$
+- Multiplication of exponents (**with the same base!**) means you add
+  - Ex. $2^3 \cdot 2^4 = 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2$
+- Division of exponents (**with the same base**) means you subtract
+  - Ex. $\frac{2^5}{2^3} = \frac{2 \cdot 2 \cdot 2 \cdot 2 \cdot 2}{2 \cdot 2 \cdot 2} = 2^2$
+  - Ex. $\frac{2^7}{2^11} = \frac{1}{2^4}$
+    - In this instance, where do you have the higher degree of an exponent? If the denominator, you can subtract the powers from each other, then take the reciprocal
+    - Negative exponent switches position
+    - $\frac{a^{-1}}{1} = \frac{1}{a^n}$
+- Ex. $\frac{2^{-3} \cdot 5^4 \cdot 7^{-2} \cdot 11^5}{3^{-5} \cdot 19^2} = \frac{5^4 \cdot 11^5 \cdot 3^5}{2^3 \cdot 7^2 \cdot 19^2}$
+  - Note how $2^{-3}$, $7^{-2}$, and $3^{-5}$ were flipped to obtain positive exponents
+- Ex. $\frac{2^5 \cdot 3^7 \cdot 5 \cdot 7^{11}}{2^4 \cdot 3^9 \cdot 5^12 \cdot 7^3} = \frac{2^1 \cdot 7^8}{3^2 \cdot 5^{11}}$
+- $(a^n)^m = a^{n \cdot m}$
+  - Ex. $(2^3)^4 = (2^3)(2^3)(2^3)(2^3) = 2^{12}$
+- $(a^n \cdot b^m)^k = a^{n \cdot k}b^{m \cdot k}$
+  - Ex. $(2^3 \cdot 3^4)^2 = (2^3 \cdot 3^4)(2^3 \cdot 3^4) = 2^6 \cdot 3^8$
+  - Ex. $(5x^3y^5z)^2 = 5^{1 \cdot 2}\cdot x^{3 \cdot 2} \cdot y^{5 \cdot 2} \cdot z^{2}$
+- $\frac{a}{b}^n = \frac{a^n}{b^n}$
+- $\frac{a^n}{b^m}^k = \frac{a^{nk}}{b^{mk}}$
+- Examples
+  - $(-x^5y^2z)^3 = -x^{15}y^6z^3$
+    - Don't forget the negative...
+  - $(-x^{-2}y^2z^{-1})^{-2} = \frac{1}{(-x^{-2}y^2z^{-1})^2} = \frac{1}{x^{-4}y^4z^{-2}} = \frac{x^4z^2}{y^4}$
+    - Don't forget the negatives
+  - $(-x^{-2}y^2z^{-1})^{-2} = (-1)^{-2}x^4y^{-4}z^2 = \frac{x^4z^2}{y^4}$
+  - $(3x^{-2}y^{-5}z)^{-3} = \frac{1}{(3x^{-2}y^{-5}z)^{3}} = \frac{1}{3^3x^{-6}y^{-15}z^3} = \frac{x^6y^{15}}{27z^3}$
+  - $(3x^{-2}y^{-5}z)^{-3} = 3^{-3}x^6y^{15}z^{-3} = \frac{x^6y^{15}}{27z^3}$
+  - $(-2x^{-2}y^2z^{-1})^{-2} = (-2)^{-2}x^4y^{-4}z^2 = \frac{x^4z^2}{-2^2y^4} = \frac{x^4z^2}{4y^4}$
+- Any number to the first power is the number itself
+  - $a^1 = a$
+  - Ex: $(4x)^{-1} = \frac{1}{4x}$
+  - Ex: $4x^{-1} = \frac{4}{x}$
+  - Ex: $3 \cdot 2^{-4} = \frac{3}{2^4}$
+- Any number (except zero) to the zero power is 1
+  - $a^0 = 1$
+- Any number (except 0) to the -1 power is 1 over the number
+  - $a^{-1} = \frac{1}{a}$
+- $(\frac{5x^3y^{-2}z^{-4}}{2x^7y^5z^{-9}})^{-2} = (\frac{5x^{-4}y^{-7}z^{5}}{2})^{-2} = (\frac{5^{-2}x^8y^{14}z^{-10}}{2^{-2}}) = \frac{4 \cdot x^8 \cdot y^{14}}{25 \cdot z^{10}}$
+  - First step for this problem is to combine exponents with similar bases
+- $(-2x^{-3}y^4z^1x^5y^{-3})^2(\frac{-x^4y^3}{x^7}) = (-2x^2yz)^2(-x^{-3}y^3) = (-2^2x^4y^2z^2)(-x^{-3}y^3) = -4xy^5z^2$
+### Section 1.2 Examples
+- $9^2 = 9 \cdot 9 = 81$
+- $15^{-2} = \frac{1}{15^2} = \frac{1}{225}$
+- $3^2 \times 3^3 = 3^5$
+- $5^{-2} \div 5^2 = \frac{1}{5^2 \cdot 5^2} = \frac{1}{625}$
+- $4^2 \times 4^3 \div 4^{-4} = \frac{4^5}{4^{-4}} = 4^{5 -(-4)}=4^9$
+- $(12^3 \times 12)^{10} = (12^4)^{10}=12^{40}$
+- $(y^7)^3 \div x^{14} = \frac{y^{21}}{x^{14}}$
+- $\sqrt[5]{2^5} = 2^{\frac{5}{7}}$
+- $(\sqrt{x})^2 = x^{\frac{1}{2}} x^{\frac{1}{2}} = x^1 = x$
+- $\frac{a^3a^2}{a} = \frac{a^5}{a} = a^4$
+- $\frac{(16\sqrt{x})^2}{y^{-1}} = \frac{(16^2x)}{y^{-1}} = 256xy$
+- $\frac{2^3}{(3a)^{-2}} = 8 \cdot 9 \cdot a^2$
+- $(\frac{3^2}{a^2})^{-2}(\frac{a^4}{2^2})^2n = (\frac{a^3}{9})^2(\frac{a^4}{4})^2 = (\frac{a^6}{81})(\frac{a^8}{16}) = \frac{a^{14}}{81 \cdot 16}$
+- $(6^2 - 24)^2 \div (\frac{x}{y})^{-5} = 12^2 \div (\frac{y}{x})^5 = 12^2 \div \frac{y^5}{x^5} = 144 \cdot \frac{x^5}{y^5}$
+- $\frac{m^2n^3}{a^2c^{-3}} \cdot \frac{a^{-7}n^{-2}}{m^2c^4} = \frac{m^{2 - 2} \cdot n^3 \cdot a^{-7-2}}{c^{-3+4}} = \frac{n^1 \cdot a^{-9}}{c} = \frac{n}{ca^9}$
+
 ## 1.3 Radicals and Rational Exponents
+- $\sqrt{100} = 10$
+- $\sqrt{\sqrt{16}} = \sqrt{4} = 2$
+- $\sqrt{25 + 144} = \sqrt{169} = 13$
+- $\sqrt{}$
+- If a > 0 and b > 0, then $\sqrt{ab} = \sqrt{a} \cdot \sqrt{b}$
+  - Similarly, $\sqrt[5]{a} \cdot \sqrt[5]{b} = \sqrt[5]{ab}$
+- $\frac{\sqrt{234x^{11}y}}{\sqrt{26x7y}} = \sqrt{\frac{234x^{11}y}{26x^7y}} = \sqrt{\frac{117x^4}{13}} = \sqrt{9x^4} = 3x^2$
+- $\sqrt{2} \cdot \sqrt{8} = \sqrt{2 \cdot 8} = \sqrt{16} = 4$
+- $3\sqrt{17} + 2\sqrt{17} = 5\sqrt{17}$
+  - Similar radicals can be combined (think of it as the same as $3x + 2x = 5x$)
+- $\sqrt{5} + 6\sqrt{20}$
+- $5\sqrt{2} + 3\sqrt{18} = 5\sqrt{2} + 3\sqrt{9 \cdot 2} = 5\sqrt{2} + 9\sqrt{2} = 14\sqrt{2}$
+- $20\sqrt{72a^3b^4c} - 14\sqrt{8a^3b^4c} = 20\sqrt{36 \cdot 2 a^2 \cdot a^1 \cdot b^2 \cdot b^2 \cdot c} - 14\sqrt{4 \cdot 2 \cdot a^2 \cdot a \cdot b^2 \cdot b^2 \cdot c}$
+  - $= 20 \cdot 6ab^2\sqrt{2ac} - 14 \cdot 2ab^2\sqrt{2ac} = 120ab^2\sqrt{2ac} - 28ab^2\sqrt{2ac} = 92ab^2\sqrt{2ac}$
+- $\sqrt{a^4} = a^{\frac{4}{2}} = a^2$
 ## 1.4 Polynomials
 ## 1.5 Factoring Polynomials
 ## 1.6 Rational Expressions
