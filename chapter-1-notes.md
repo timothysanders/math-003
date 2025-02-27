@@ -139,6 +139,13 @@
 - $\frac{m^2n^3}{a^2c^{-3}} \cdot \frac{a^{-7}n^{-2}}{m^2c^4} = \frac{m^{2 - 2} \cdot n^3 \cdot a^{-7-2}}{c^{-3+4}} = \frac{n^1 \cdot a^{-9}}{c} = \frac{n}{ca^9}$
 
 ## 1.3 Radicals and Rational Exponents
+- In a square root, the symbol $\sqrt{}$ is the `radical`, the number under the radical is the `radicand`, and the entire expression is the `radical expression`
+- If there is no number written, then there is an "invisible" two in the radical, ex. $\sqrt[2]{25}$
+- In the example $\sqrt[n]{a^m}$
+  - $n$ = index
+  - $m$ = exponent
+  - $a$ = base
+  - $a^m$ = radicand
 - $\sqrt{100} = 10$
 - $\sqrt{\sqrt{16}} = \sqrt{4} = 2$
 - $\sqrt{25 + 144} = \sqrt{169} = 13$
@@ -154,6 +161,84 @@
 - $20\sqrt{72a^3b^4c} - 14\sqrt{8a^3b^4c} = 20\sqrt{36 \cdot 2 a^2 \cdot a^1 \cdot b^2 \cdot b^2 \cdot c} - 14\sqrt{4 \cdot 2 \cdot a^2 \cdot a \cdot b^2 \cdot b^2 \cdot c}$
   - $= 20 \cdot 6ab^2\sqrt{2ac} - 14 \cdot 2ab^2\sqrt{2ac} = 120ab^2\sqrt{2ac} - 28ab^2\sqrt{2ac} = 92ab^2\sqrt{2ac}$
 - $\sqrt{a^4} = a^{\frac{4}{2}} = a^2$
+- $\sqrt[3]{1000} = 10$
+- This is an example of "not good technique" for simplifying square root expressions, very manual technique
+  - $\sqrt{72a^7b^{11}c^5} = \sqrt{36 \cdot 2 \cdot a^2\cdot a^2\cdot a^2 \cdot a^1 \cdot b^2\cdot b^2\cdot b^2\cdot b^2\cdot b^2 \cdot b^1 \cdot c^2\cdot c^2 \cdot c^1} = 6aaabbbbbcc\sqrt{2abc} = 6a^3b^5c^2\sqrt{2abc}$
+- This is an example of "good technique"
+  1. Prime factorization of any numbers under the radicand
+  2. Divide the exponents within the radical by the index of the radical
+  3. Combine the results of refactoring
+  - $\sqrt{72a^7b^{11}c^5} = \sqrt{2^3 \cdot 3^2a^7b^{11}c^5}$
+    - Take the number under th radical and do prime factorization
+      - ex. $72 = 2^3 \cdot 3^2$
+    - Check the exponents of each prime factor
+    - Divide the exponents within the radical by the index of the radical
+      - $\sqrt{2^3} = 2\sqrt{2}$
+      - $\sqrt{3^2} = 3$
+      - $\sqrt{a^7} = a^3\sqrt{a}$
+      - $\sqrt{b^{11}} = b^5\sqrt{b}$
+      - $\sqrt{c^5} = c^2\sqrt{c}$
+    - Combine the results of your refactoring
+      - $6a^3b^5c^2\sqrt{2abc}$
+    - Additional examples
+      - $\sqrt[3]{a^5} = a\sqrt[3]{a^2}$
+      - $\sqrt[5]{4a^4b^5c^6e^7d^8w^{13}p^{26}}$
+        - Prime factorization
+          - $\sqrt[5]{4} = 2 \cdot 2 = \sqrt[5]{2^2}$
+        - Divide exponents by the index
+          - $\sqrt[5]{a^4}$
+          - $\sqrt[5]{b^5} = b$
+          - $\sqrt[5]{c^6} = c\sqrt[5]{c}$
+          - $\sqrt[5]{e^7} = e\sqrt[5]{e^2}$
+          - $\sqrt[5]{d^8} = d\sqrt[5]{d^3}$
+          - $\sqrt[5]{w^{13}} = w^2\sqrt[5]{w^3}$
+          - $\sqrt[5]{p^{26}} = p^5\sqrt[5]{p}$
+        - Combine
+          - $bcedw^2p^5\sqrt[5]{2^2ce^2d^3w^3p}$
+      - $\sqrt[3]{432a^7b^2c^{11}de^{15}} = \sqrt[3]{2^4 \cdot 3^3 \cdot a^7b^2c^{11}de^{15}}$
+        - Prime factorization
+          - $432 / 2 = 216$
+            - $216 / 2 = 108$
+              - $108 / 2 = 54$
+                - $54 / 2 = 27$
+                  - $27 / 3 = 9$
+                    - $9 / 3 = 3$
+          - result = $2^4 \cdot 3^3$
+        - Divide exponents by the index
+          - $\sqrt[3]{2^4} = 2\sqrt[3]{2}$
+          - $\sqrt[3]{3^3} = 3$
+          - $\sqrt[3]{a^7} = a^2\sqrt[3]{a}$
+          - $\sqrt[3]{b^2} = \sqrt[3]{b^2}$
+          - $\sqrt[3]{c^{11}} = c^3\sqrt[3]{c^2}$
+          - $\sqrt[3]{d} = \sqrt[3]{d}$
+          - $\sqrt[3]{e^{15}} = e^5$
+        - Combine
+          - $6a^2c^3e^5\sqrt[3]{2ab^2c^2d}$
+- Can think of the square root as the opposite of squaring a number
+  - $\sqrt{4} = 2$
+  - You can however, have $-\sqrt{25} = -5$
+- **PRINCIPAL SQUARE ROOT**
+  - The principal square root of $a$ is the non-negative number that, when multiplied by itself, equals $a$
+  - When we say $\sqrt{4}$, it is a number, and an expression, and it is only positive
+    - This is different from when we say $x^2 = 4$, this is an equation and may have multiple answers
+      - Ex. $x^2 = 4 = \pm2$
+- **Under any square root (or any even root), the radicand must be positive**
+  - You cannot say $\sqrt{-25}$, this is called "not real"
+- **IMPORTANT RULE**
+  - When dealing with even roots, you need to make sure that the radicand is positive, this is because the radicand could be positive or negative, so we agree that it is positive
+  - $\sqrt{a^2} = |a|$
+    - Absolute value indicates "distance" from zero
+  - $\sqrt{(-2)^2} = |-2| = 2$
+  - $\sqrt[2]{(-6)^2} = |-6| = 6$
+  - $\sqrt[2]{a^{14}} = |a^7|$
+  - When dealing with odd roots, you do not have the possibility of having two options
+  - $\sqrt[3]{a^3}$
+- Under even root, in order to continue, you must have positive radicands
+### Examples
+- For examples in the textbook, assume all variables are positive
+- $(\frac{\sqrt{250x^2}}{\sqrt{100b^3}})(\frac{7\sqrt{b}}{\sqrt{125x}}) = \sqrt{\frac{250x^2}{100b^3}} \cdot \frac{7}{1} \cdot \sqrt{\frac{b}{125x}} = \sqrt{\frac{5x^2}{2b^3}} \cdot \frac{7}{1} \cdot \sqrt{\frac{b}{125x}} = 7 \cdot \sqrt{\frac{5 \cdot x^2}{2 \cdot b^3} \cdot \frac{6}{125x}} = 7 \cdot \sqrt{\frac{x}{2 \cdot b^2 \cdot 25}} = 7 \cdot \frac{\sqrt{x}}{5b\sqrt{2}} = \frac{7\sqrt{x}}{5b\sqrt{2}} = \frac{7\sqrt{2x}}{10b}$
+  - Remember to rationalize denominator before you are done
 ## 1.4 Polynomials
+
 ## 1.5 Factoring Polynomials
 ## 1.6 Rational Expressions
