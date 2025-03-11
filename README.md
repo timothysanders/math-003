@@ -4,3 +4,6 @@
 
 ## Chapter Notes
 - [Chapter 1](chapter-1-notes.md)
+
+## Chapter Quizzes
+- [Chapter 1 Practice Quiz](chapter-1-quiz.md)
