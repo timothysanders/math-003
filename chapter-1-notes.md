@@ -78,6 +78,32 @@
 - $10 + 2 \times (5 - 3)$
 - $6 \div 2 - (81 \div 3^2)$
 ## 1.2 Exponents and Scientific Notation
+### Using the Product Rule of Exponents
+- When multiplying exponential expressions with the same base, we write the result with the common base and add the exponents
+- **Product rule of exponents**: for any real number $a$ and natural numbers $m$ and $n$, the product rule of exponents states that $a^m \cdot a^n = a^{m+n}$
+- Example: $x^3 \cdot x^4 = x^{3 + 4} = x^7$
+- Example: $2^3 \cdot 2^4 = 2^7$
+### Using the Quotient Rule of Exponents
+- Allows us to simplify an expression that divides two numbers with the same base, but different exponents. When dividing exponential expressions with the same base, we write the result with the common base and subtract the exponents
+- **Quotient rule of exponents**: for any real number $a$ and natural numbers $m$ and $n$, such that $m > n$, the quotient rule of exponents states that $\frac{a^m}{a^n} = a^{m-n}$
+- Example: $\frac{y^9}{y^5} = y^{9-5} = y^4$
+- Example: $\frac{(-2)^14}{(-2)^9} = (-2)^5
+### Using the Power Rule of Exponents
+- If an exponential expression is raised to a power, we multiply the expression inside the parentheses by the outer exponent. Be careful to distinguish this rule from the product rule, for example $5^3 \cdot 5^4 = 5^7$ but $(5^3)^4 = 5^{12}$
+- **Power rule of exponents**: for any real number $a$ and positive integers $m$ and $n$, the power rule of exponents states that $(a^m)^n = a^{m \cdot n}$
+- Example: $(x^2)^3 = x^2 \cdot x^2 \cdot x^2 = x^6$
+### Using the Zero Exponent Rule of Exponents
+- If the exponents $m$ and $n$ in the quotient rule are equal to each other, we simplify the expression to 1
+- **Zero exponent rule of exponents**: For any nonzero real number $a$, the zero exponent rule of exponents states that $a^0 = 1$
+- Example: $\frac{t^8}{t^8} = t^{8-8} = t^0$ any nonzero real number raised to the zeroth power is equal to 1
+### Using the Negative Rule of Exponents
+- If we divide a smaller exponential expression by a larger one, we end up with a negative exponent, we can simplify this expression by taking its reciprocal
+- **Negative rule of exponents**: For any nonzero real number $a$ and natural number $n$, the negative rule of exponents states that $a^{-n} = \frac{1}{a^n}$
+- Example: $\frac{h^3}{h^5} = \frac{h \cdot h \cdot h}{h \cdot h \cdot h \cdot h \cdot h} = \frac{1}{h^2}$
+- Example: $\frac{h^3}{h^5} = h^{3-5} = h^{-2} = \frac{1}{h^2}$
+### Finding the Power of a Product
+---
+In-class notes
 - Exponents is a base multiplied by itself multiple times
 - $a^n = n^{th}\space power \space of \space a = n^{th} \space degree \space of \space a$
   - $a$ is the base and $n$ is our exponent/degree
@@ -409,7 +435,7 @@ In-Class notes
 - The sum of cubes can be factored into a binomial and a trinomial
   - Example form: $a^3 + b^3 = (a + b)(a^2 - ab + b^2)$
 - The difference of cubes can also be factored into a binomial and trinomial, but with different signs
-  - Example form: $a^3 - b^3 = (a = b)(a^2 + ab + b^2)$
+  - Example form: $a^3 - b^3 = (a + b)(a^2 + ab + b^2)$
 - You can use the acronym *SOAP* to remember the signs when factoring sum/difference of cubes
   - **SOAP**: **S**ame **O**pposite **A**lways **P**ositive
   - Example: $x^3 - 2^3 = (x - 2)(x^2 + 2x + 4)$
@@ -433,3 +459,66 @@ In-Class notes
   - Factor out GCF $(5a - 1)^{-\frac{1}{4}}(2 + 7a(5a - 1))$
   - $(5a - 1)^{-\frac{1}{4}}(2 + 7a)$
 ## 1.6 Rational Expressions
+#### Simplifying Rational Expressions
+- The quotient of two polynomial expressions is called a **rational expression** and properties of fractions can be applied to these, such as simplifying by canceling common factors. The first step is to factor the numerator and the denominator
+- $\frac{x^2 + 8x + 16}{x^2 + 11x + 28}$
+  - After factoring the numerator and the denominator, we get $\frac{(x + 4)^2}{(x + 4)(x + 7)}$
+  - Then, we can simplify by canceling the common factor $(x + 4)$ to get $\frac{x + 4}{x + 7}$
+- Example 1: simplify $\frac{x^2 - 9}{x^2 + 4x + 3}$
+  - After factoring, we get $\frac{(x + 3)(x - 3)}{(x + 3)(x + 1)}$
+  - Cancel out the common factor $(x + 3)$ and we get $\frac{x - 3}{x + 1}$
+- Example 1.1: simplify $\frac{x - 6}{x^2 - 36}$
+  - After factoring, we get $\frac{x - 6}{(x + 6)(x - 6)}$
+  - Cancel the common factor $(x - 6)$ and we get $\frac{1}{x + 6}$
+#### Multiplying Rational Expressions
+- Multiplying rational expressions works like multiplication of any other fractions, where you multiply the numerator, then multiply the denominator. Before multiplying, you can factor the numerator/denominator to simplify the expressions
+- Example 2: Multiply $\frac{x^ + 4x - 5}{3x + 18} \cdot \frac{2x - 1}{x + 5}$
+  - After factoring, we get $\frac{(x - 1)(x + 5)}{3(x + 6)} \cdot \frac{2x - 1}{x + 5}$
+  - Cancel out $x + 5$, then we get $\frac{(x - 1)(2x - 1)}{3(x + 6)}$
+- Example 2.1: simplify $\frac{x^2 + 11x + 30}{x^2 + 5x + 6} \cdot \frac{x^2 + 7x + 12}{x^2 + 8x + 16}$
+  - After factoring, we get $\frac{(x + 5)(x + 6)}{(x + 3)(x + 2)} \cdot \frac{(x + 4)(x + 3)}{(x + 4)^2}$
+  - Cancel out common factors, we are left with $\frac{(x + 5)(x + 6)}{(x + 2)(x + 4)}$
+#### Dividing Rational Expressions
+- Dividing rational expressions works the same as division of other fractions, where you multiply the first expression by the reciprocal of the second, so $\frac{1}{x} \div \frac{x^2}{3}$ becomes $\frac{1}{x} \cdot \frac{3}{x^2} = \frac{3}{x^3}$
+- **How to**
+  1. Rewrite as the first rational expression multiplied by the reciprocal of the second
+  2. Factor the numerators and denominators
+  3. Multiply the numerators
+  4. Multiply the denominators
+  5. Simplify
+- Example 3: divide and express in simplest form $\frac{2x^2 + x - 6}{x^2 - 1} \div \frac{x^2 - 4}{x^2 + 2x + 1}$
+  - Change to multiplication by reciprocal $\frac{2x^2 + x - 6}{x^2 - 1} \cdot \frac{x^2 + 2x + 1}{x^2 - 4}$
+  - After factoring, we get $\frac{(2x - 3)(x + 2)}{(x + 1)(x - 1)} \cdot \frac{(x + 1)^2}{(x + 2)(x - 2)}$
+  - Cancel common factors, we are left with $\frac{(2x - 3)(x + 1)}{(x - 1)(x - 2)}$
+- Example 3.1
+#### Adding and Subtracting Rational Expressions
+- Adding and subtracting rational expressions works just like adding and subtracting numerical fractions. To add fractions, we need a common denominator, so we should try to find the **least common denominator** (LCD), the smallest multiple the denominators have in common. For a rational expression, factor the expressions and multiply all the distinct factors. For example, if the factored denominators were $(x + 3)(x + 4)$ and $(x + 4)(x + 5)$, the LCD would be $(x + 3)(x + 4)(x + 5)$. After finding the LCD, need to multiply each expression by the form of 1 that will change denominator to LCD. Using our previous example, we would multiply $(x + 3)(x + 4) \cdot \frac{x + 5}{x + 5}$ and $(x + 4)(x + 5) \cdot \frac{x + 3}{x + 3}$
+- **How to**
+  1. Factor the numerator and the denominator
+  2. Find the LCD of the expressions
+  3. Multiply the expressions by a form of 1 that changes the denominators to the LCD
+  4. Add or subtract the numerators
+  5. Simplify
+- Example 4: $\frac{5}{x} + \frac{6}{y}$
+  - Find the LCD, in this instance $xy$ and multiply to make each denominator equal to the LCD
+  - $\frac{5}{x} \cdot \frac{y}{y} + \frac{6}{y} \cdot \frac{x}{x} = \frac{5y}{xy} + \frac{6x}{xy}$
+  - Add numerators $\frac{6x + 5y}{xy}$
+- Example 5: $\frac{6}{x^2 + 4x + 4} - \frac{2}{x^2 - 4}$
+  - Factor: $\frac{6}{(x + 2)^2} - \frac{2}{(x + 2)(x - 2)}$
+  - Find the LCD, in this instance, $(x + 2)^2(x -2)$
+  - Multiply denominators to get LCD $\frac{6}{(x + 2)^2} \cdot \frac{x - 2}{x - 2} - \frac{2}{(x + 2)(x - 2)} \cdot \frac{x + 2}{x + 2} = \frac{6(x - 2)}{(x + 2)^2(x -2)} - \frac{2(x + 2)}{(x + 2)^2(x - 2)}$
+  - Apply distributive property $\frac{6x - 12 - (2x + 4)}{(x + 2)^2(x - 2)}$
+  - Subtract $\frac{4x - 16}{(x + 2)^2(x - 2)}$
+  - Simplify $\frac{4(x - 4)}{(x + 2)^2(x - 2)}$
+#### Simplifying Complex Rational Expressions
+- A complex rational expression is a rational expression that contains additional rational expressions in the numerator/denominator/both. These can be simplified by rewriting the numerator and denominator as a single rational expression and dividing. For example, $\frac{a}{\frac{1}{b} + c}$ can be rewritten with the numerator as the fraction $\frac{a}{1}$ and combining the expressions in the denominator as $\frac{1 + bc}{b}$. Then the expression can be rewritten as a multiplication problem using the reciprocal of the denominator, $\frac{a}{1} \cdot \frac{b}{1 + bc} = \frac{ab}{1 + bc}$
+- **How to**
+  1. Combine the expressions in the numerator into a single rational expression by adding or subtracting
+  2. Combine the expressions in the denominator into a single rational expression by adding or subtracting
+  3. Rewrite as the numerator divided by the denominator
+  4. Rewrite as multiplication
+  5. Multiply
+  6. Simplify
+- Example 6: $\frac{y + \frac{1}{x}}{\frac{x}{y}}$
+  - Combine expressions: $\frac{\frac{1 + xy}{x}}{\frac{x}{y}}$
+  - Multiply: $\frac{1 + xy}{x} \cdot \frac{y}{x} = \frac{y(xy + 1)}{x^2}$
