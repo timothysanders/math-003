@@ -1,0 +1,89 @@
+## 2.2: Linear Equations in One Variable
+
+---
+In-class notes
+#### Examples
+- Given two points, **write the equation of the line** passing through these points $(5, 4)$ and $(-1, 0)$
+  - Write the template of the equation for a line
+    - $y - y_1 = m(x - x_1)$
+  - Find what you have in the equation
+    - Choose the point that has zero in it as your $(x_1, y_1)$ point
+      - In this example $x_1 = -1,\space y_1=0, x_2=5, \space y_2 = 4$
+    - Calculate the slope (from our first example above): $\frac{0 - 4}{-1 -5} = \frac{-4}{-6} = \frac{2}{3}$
+    - Now that we have the slope, we can plug in the rest of the numbers
+      - $y - 0 = \frac{2}{3}(x - (-1))$
+      - $y = \frac{2}{3}(x + 1)$
+      - $y = \frac{2}{3}x + \frac{2}{3}$
+- **Write the equation of a line** passing through $(5, 7)$ and having y-int of $(0, 3)$
+  - $y - y_1 = m(x - x_1)$
+  - $m = \frac{3 - 7}{0 - 5} = \frac{-4}{-5} = \frac{4}{5}$
+  - $x_1 = 5, y_1 = 7$ and $x_2 = 0, y_2 = 3$
+  - $y - 3 = \frac{4}{5}(x - 0)$
+    - distribute and simplify
+    - $y = \frac{4}{5}x + 3$
+  - In this instance, we have the y-intercept explicitly listed, so we could use $y = mx + b$
+- **Write the equation of a line** passing through $(5, 2)$ and having x-int of $(2, 0)$
+  - $y - y_1 = m(x - x_1)$
+  - $m = \frac{2 - 0}{5 - 2} = \frac{2}{3}$
+  - $y = \frac{2}{3}(x - 2)$
+  - $y = \frac{2}{3}x - \frac{4}{3}$
+- **Write the equation of a line** passing through $(2, 5)$ and parallel (perpendicular) to the given line $2x - 3y = 6$
+  - $y - y_1 = m(x - x_1)$
+  - Set y equal to zero to get the x-intercept $2x - 3(0) = 6$
+    - $2x = 6$
+    - $x = 3$
+    - X-intercept = $(3, 0)$
+  - Set x equal to zero to get the y-intercept $2(0) - 3y = 6$
+    - Y-intercept = $(0, -2)$
+  - Find the slope of the given line
+    - $m = \frac{2}{3}$
+  - Parallel line has the same slope and a given point of $(2, 5)$
+    - $y - 5 = \frac{2}{3}(x - 2)$
+    - $y = \frac{2}{3}x - \frac{11}{3}$
+  - For perpendicular line, the slope is the negative reciprocal
+    - $m = -\frac{3}{2}$
+    - $y - 5 = -\frac{3}{2}(x - 2)$
+      - $y - 5 = -\frac{3}{2}x + 3$
+      - $y = -\frac{3}{2} + 8$
+
+- Need to be able to chose which form of the linear equation makes sense for the problem
+  - $y = mx + b$
+  - $y_2 - y_1 = m(x_2 - x_1)$ - go with this one
+  - $ax + by = c$
+  - $m = \frac{y_1 - y_2}{x_1 - x_2} = \frac{y_2 - y_1}{x_2 - x_1}$
+
+- Write the equation of the line passing through these two points $(1, 3)$ and $(5, 5)$
+  - $y - y_1 = m(x - x_1)$
+  - $y - 3 = m(x - 1)$
+  - $m = \frac{y_1 - y_2}{x_1 - x_2}$
+    - $m = \frac{3 - 5}{1 - 5}$
+    - $m = \frac{-2}{-4} = \frac{1}{2}$
+  - $y - 3 = \frac{1}{2}x - \frac{1}{2}$
+  - $y = \frac{1}{2}x + \frac{5}{2}$
+- Write the equation of a line parallel to $y = 2x + 5$ and passes through the point $(4, 3)$
+  - To find `m`, use the equation of the given line and isolate `y` in it. Whatever appears next to `x` is your slope. In this problem, we can already see the slope is 2
+  - $m = 2$
+  - $y - y_1 = m(x - x_1)$
+    - $y - 3 = 2(x - 4)$
+    - $y - 3 = 2x - 8$
+    - $y = 2x - 5$
+- Write the equation of a line perpendicular to $3y = x - 4$ and passes through the point $(-2, 1)$
+  - $y - y_1 = m(x - x_1)$
+    - $y - 1 = m(x - (-2))$
+    - $y = -3x - 5$
+  - To find slope, use the given equation and isolate `y`
+    - $y = \frac{1}{3}x - \frac{4}{3}$
+    - $m = \frac{1}{3}$
+- Write the equation of a line where the line passes through $(-2, 0)$ and $(-2, 5)$
+  - Because both x values are the same, the line is vertical
+  - The slope is undefined, so $x = -2$
+- Write the equation of a line where the line passes through $(1, 7)$ and $(3, 7)$
+  - Because both y values are the same, the line is horizontal
+  - The slope is zero
+  - $y = 7$
+- Write the equation of a line where the slope is undefined and passes through the point $(2, 3)$
+  - Slope of the line is undefined, so the line is vertical
+  - $x = 2$
+- Write the equation of a line where the slope is zero and passes through the point $(1, -4)$
+  - $m = 0$
+  - $y = -4$
