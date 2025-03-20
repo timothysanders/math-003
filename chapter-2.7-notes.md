@@ -40,3 +40,9 @@
 
 ---
 In-class notes
+- Review recording of office hours
+- Emphasis was on practice test review
+- See the "[Practice for ch 1+2 test](https://canvas.pasadena.edu/courses/1153666/pages/practice-for-ch-1+2test?module_item_id=18105311)"
+- $x^2 - 9 = 0$
+  - $\sqrt{x^2} = \sqrt{9}$
+  - $x = \pm 3$

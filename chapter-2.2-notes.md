@@ -1,4 +1,23 @@
 ## 2.2: Linear Equations in One Variable
+### Solving Linear Equations in One Variable
+- A **linear equation** is an equation of a straight line, written in one variable (the only power of the variable is 1), and may take the form $ax + b = 0$. These are solved using basic algebraic operations
+- Linear equations in one variable can be classified as one of three types, identity, conditional, or inconsistent. The **solution set** for an equation is all values that make the equation true. 
+- An $identity equation$ is true for all values of the variable
+  - Example: $3x = 2x + x$
+  - For identity equations, the solution set is the set of all real numbers
+- A **conditional equation** is true only for some values of the variable
+  - Example: $5x + 2 = 3x - 6$
+  - The solution set for this equation is only one number, -4
+- An **inconsistent equation** results in a false statement
+  - For these equations, there is no solution
+##### Linear equation in one variable
+- A linear equation in one variable can be written in the form $ax + b = 0$, where a and b are real numbers and $a \ne 0$
+##### Examples
+- $2x + 7 = 19$
+  - $2x = 12$
+  - $x = 6$
+### Solving a Rational Equation
+- 
 
 ---
 In-class notes
