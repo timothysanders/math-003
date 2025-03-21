@@ -17,7 +17,111 @@
   - $2x = 12$
   - $x = 6$
 ### Solving a Rational Equation
-- 
+- If an equation contains at least one rational expression, it is considered a **rational equation**. Rational numbers are ratios of two numbers, think $\frac{2}{3}$. A rational expression is the ratio, or quotient of two polynomials
+- Rational equations have a variable in the denominator in a least one of the terms, we want to move the variables to the numerator. One way to do this is to multiply both sides by the least common denominator (LCD).
+  - To find the LCD, we identify an expression that contains the highest power of all the factors in all the denominators.
+- Example: $\frac{7}{2x} - \frac{5}{3x} = \frac{22}{3}
+  - The LCD must contain $2x$, $3x$, and $3$, the LCD $6x$ contains all of these.
+  - Multiply each side by the LCD: $(6x)(\frac{7}{2x} - \frac{5}{3x}) = (\frac{22}{3})(6x)$
+  - Distributive property: $(6x)(\frac{7}{2x}) - (6x)(\frac{5}{3x}) = (\frac{22}{3})(6x)$
+  - Cancel common factors: $(3)(7) - (2)(5) = (22)(2x)$
+  - $21 - 10 = 44x$
+  - $x = \frac{11}{44}$
+  - $x = \frac{1}{4}$
+- Always consider a binomial (such as $x - 1$) as an individual factor, it cannot be separated
+  - An example are three denominators of $x$, $x - 1$, and $3x - 3$. First factor all denominators
+  - $x$, $(x - 1)$, and $3(x - 1)$
+  - Multiply together $x$, $(x - 1)$, and $3$ = $3x(x - 1)$
+- Any solution that makes a denominator in the original expression equal zero must be excluded from the possibilities
+##### Rational Equations
+- A **rational equation** contains at least one rational expression where the variable appears in at least one of the denominators
+##### How To
+- Given a rational equation, solve it
+  1. Factor all denominators in the equation
+  2. Find and exclude values that set each denominator equal to zero
+  3. Find the LCD
+  4. Multiply the whole equation by the LCD. If the LCD is correct, there will be no denominators left.
+  5. Solve the remaining equation
+  6. Make sure to check solutions back in the original equations to avoid a solution producing zero in a denominator
+#### Examples
+- $\frac{2}{x} - \frac{3}{2} = \frac{7}{2x}$
+  - Find LCD: $2x$
+  - Multiply by LCD: $(2x)(\frac{2}{x}) - (2x)(\frac{3}{2}) = (\frac{7}{2x})(2x)$
+  - $(2)(2) - (3x) = 7$
+  - $4 - 3x = 7$
+  - $-3x = 3$
+  - $x = -1$
+- $\frac{2}{3x} = \frac{1}{4} - \frac{1}{6x}$
+  - Find LCD: $12x$
+  - Multiply by LCD: $(12x)(\frac{2}{3x}) = (12x)(\frac{1}{4}) - (12x)(\frac{1}{6x})$
+  - $(4)(2) = (3x)(1) - (2)(1)$
+  - $3x - 2 = 8$
+  - $x = \frac{10}{3}$
+- $\frac{1}{x} = \frac{1}{10} - \frac{3}{4x}$
+
+### Finding a Linear Equation
+- Most familiar form of a linear equation is slope-intercept form, which is $y = mx + b$, where $m = \text{slope}$ and $b = \text{y-intercept}$.
+#### The Slope of a Line
+- The **slope** of a line refers to the ratio of the vertical change in $y$ over the horizontal change in $x$ between any two points of the line. This indicates the direction in which a line slants, as well as its steepness. This is often described as "rise over run"
+- $m = \frac{y_2 - y_1}{x_2 - x_1}$
+  - Note that it does not matter which point we call $(x_1, y_1)$ or $(x_2, y_2)$, as long as we are consistent we will get the same result
+- If the slope is positive, the line slants to the right, if it is negative, it slants to the left. As slope increases, the line becomes steeper
+- ![Slope examples](images/figure-02.2.2.jpg)
+##### The Slope of a Line
+- The slope of a line, $m$, represents the change in $y$ over the change in $x$. Given two points, $(x_1, y_1)$ and $(x_2, y_2)$, the following formula determines the slope of a line containing these two points
+  - $m = \frac{y_2 - y_1}{x_2 - x_1}$
+#### Examples
+- Find the slope of a line for $(2, -1)$ and $(-5, 3)$
+  - $m = \frac{3 - (-1)}{-5 - 2}$
+  - $m = -\frac{4}{7}$
+- Find the slope of a line for $(-2, 6)$ and $(1, 4)$
+  - $m = \frac{4 - 6}{1 - (-2)}$
+  - $m = -\frac{2}{3}$
+- Identify the slope and y-intercept of a line given an equation
+  - $y = -\frac{3}{4}x - 4$
+  - $m = -\frac{3}{4}$
+  - $\text{y-intercept} = (0, -4)$
+#### The Point-Slope Formula
+- Given the slope and one point on a line, we can find the equation of the line using point-slope formula
+- $y - y_1 = m(x - x_1)$
+- After substituting the slope and coordinates of one point, we simplify and write it in slope-intercept form
+##### The Point-Slope Formula
+- Given one point and the slope, the point-slope formula will lead to the equation of a line
+- $y - y_1 = m(x - x_1)$
+#### Examples
+- $m = -3$ and passing through $(4, 8)$
+  - $y - 8 = -3(x - 4)$
+  - $y = -3x + 20$
+- $m = 4$ and passing through $(2, 5)$
+  - $y - 5 = 4(x - 2)$
+  - $y = 4x - 3$
+- passing through $(3, 4)$ and $(0, -3)$
+  - $m = \frac{-3 - 4}{0 - 3} = \frac{7}{3}$
+  - $y - 4 = \frac{7}{3}(x - 3)$
+  - $y = \frac{7}{3}x - 3$
+#### Standard Form of a Line
+- Another way to write the equation of a line is in standard form, which is $ax + by = c$, where a, b, and c are integers
+#### Vertical and Horizontal Lines
+- Equations of vertical and horizontal lines do not require any of the preceding formulas
+- Vertical line: $x = c$ where $c$ is a constant
+  - The slope of a vertical line is undefined and regardless of the y-value at any point, the x-coordinate will be $c$
+- Horizontal line: $y = c$ where $c$ is a constant
+  - The slope of a horizontal line is zero and regardless of the x-value at any point, the y-coordinate will be $c$
+- ![Vertical and horizontal examples](images/figure-02.2.3.jpg)
+### Determining Whether Graphs of Lines are Parallel or Perpendicular
+- Parallel lines have the same slope and different y-intercepts, these lines will never intersect
+- ![Parallel lines](images/figure-02.2.4.jpg)
+- Perpendicular lines intersect to form a 90 degree angle. The slope of one line is the negative reciprocal of the other
+  - If $m_1 = 2$ then $m_2 = -\frac{1}{2}$
+- ![Perpendicular lines](images/figure-02.2.5.jpg)
+### Writing the Equations of Lines Parallel or Perpendicular to a Given Line
+- To write the equation of a line parallel or perpendicular to another line, we follow the same principles as we do for finding any line. After find the slope, use point-slope formula to write the equation of the new line
+##### How To
+- Given an equation for a line, write the equation of a line parallel or perpendicular to it.
+  1. Find the slope of the given line. The easiest way to do this is to write the equation in slope-intercept form.
+  2. Use the slope and the given point with the point-slope formula
+  3. Simplify the line to slope-intercept form and compare the equation to the given line
+
 
 ---
 In-class notes
