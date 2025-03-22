@@ -83,3 +83,45 @@
   - $= (3 \cdot 2) + (3\cdot3i) + (-4i\cdot2) + (-4i\cdot3i)$
   - $= 6 + 9i - 8i + 12$
   - $= 18 + i$
+
+### Dividing Complex Numbers
+- Because you cannot divide by an imaginary number, any fraction must have a real-number denominator to write the answer in standard form, $a + bi$. Therefore, we need to find a term by which we can multiply the numerator and the denominator that will eliminate the imaginary portion of the denominator, so that we end up with a real number as the denominator. This term is called the complex conjugate of the denominator, which we find by changing the sign of the imaginary part of the complex number. For example the complex conjugate of $a + bi$ is $a - bi$.
+  - Example: $(a + bi)(a - bi) = a^2 - abi + abi - b^2i^2 = a^2 + b^2$
+- The complex conjugate has an opposite relationship, so the complex conjugate of $a - bi$ is $a + bi$
+- Example: $\frac{c + di}{a + bi}$
+  - $\frac{(c + di)}{(a + bi)} \cdot \frac{(a - bi)}{(a - bi)} = \frac{(c + di)(a - bi)}{(a + bi)(a - bi)}$: multiply numerator and denominator by complex conjugate
+  - $= \frac{ca - cbi + adi - bdi^2}{a^2 - abi + abi - b^2i^2}$: apply the distributive property
+  - $= \frac{ca - cbi + adi - bd(-1)}{a^2 - abi + abi - b^2(-1)}$: Simplify, remembering the $i^2 = -1$
+  - $= \frac{(ca + bd) + (ad - cb)i}{a^2 + b^2}$
+##### The Complex Conjugate
+- The **complex conjugate** of a complex number $a + bi$ is $a - bi$. It is found by changing the sign of the imaginary part of the complex number. The real part of the number is left unchanged.
+  - When a complex number is multiplied by its complex conjugate, the result is a real number
+  - When a complex number is added to its complex conjugate, the result is a real number
+#### Examples
+- Find the complex conjugate of each number
+  - $2 + i\sqrt{5} = 2 - i\sqrt{5}$
+  - $-\frac{1}{2}i = \frac{1}{2}$
+  - $-3 + 4i = -3 - 4i$
+- Divide $(2 + 5i)$ by $(4 - i)$
+  - $\frac{(2 + 5i)}{(4 - i)}$
+  - $\frac{(2 + 5i) \cdot (4 + i)}{(4 - i)\cdot(4 + i)}$
+  - $\frac{8 + 20i + 2i + 5i^2}{16 - 4i + 4i - i^2}$
+  - $\frac{3 + 22i}{17}$
+  - $\frac{3}{17} + \frac{22i}{17}$
+#### How To
+- Given two complex numbers, divide one by the other
+  1. Write the division problem as a fraction
+  2. Determine the complex conjugate of the denominator
+  3. Multiply the numerator and denominator of the fraction by the complex conjugate of the denominator
+  4. Simplify
+
+### Simplifying Powers of $i$
+- The powers of $i$ are cyclic, with a cycle of four. Every four powers, the cycle of $i, -1, -i, 1$ repeats
+  - $i^1 = i$
+  - $i^2 = -1$
+  - $i^3 = i^2 \cdot i = -1 \cdot i = -i$
+  - $i^4 = i^2 \cdot i^2 = -1 \cdot -1 = 1$
+  - $i^5 = i^4 \cdot i = 1 \cdot i = i$
+#### Examples
+- $i^35 = -i$: can divide by four and use the remainder
+- $i^18 = -1$
