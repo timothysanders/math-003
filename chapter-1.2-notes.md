@@ -23,3 +23,24 @@
 - Example: $\frac{h^3}{h^5} = \frac{h \cdot h \cdot h}{h \cdot h \cdot h \cdot h \cdot h} = \frac{1}{h^2}$
 - Example: $\frac{h^3}{h^5} = h^{3-5} = h^{-2} = \frac{1}{h^2}$
 ### Finding the Power of a Product
+
+
+---
+In-class Notes
+
+### Section 1.2 Examples
+- $9^2 = 9 \cdot 9 = 81$
+- $15^{-2} = \frac{1}{15^2} = \frac{1}{225}$
+- $3^2 \times 3^3 = 3^5$
+- $5^{-2} \div 5^2 = \frac{1}{5^2 \cdot 5^2} = \frac{1}{625}$
+- $4^2 \times 4^3 \div 4^{-4} = \frac{4^5}{4^{-4}} = 4^{5 -(-4)}=4^9$
+- $(12^3 \times 12)^{10} = (12^4)^{10}=12^{40}$
+- $(y^7)^3 \div x^{14} = \frac{y^{21}}{x^{14}}$
+- $\sqrt[5]{2^5} = 2^{\frac{5}{7}}$
+- $(\sqrt{x})^2 = x^{\frac{1}{2}} x^{\frac{1}{2}} = x^1 = x$
+- $\frac{a^3a^2}{a} = \frac{a^5}{a} = a^4$
+- $\frac{(16\sqrt{x})^2}{y^{-1}} = \frac{(16^2x)}{y^{-1}} = 256xy$
+- $\frac{2^3}{(3a)^{-2}} = 8 \cdot 9 \cdot a^2$
+- $(\frac{3^2}{a^2})^{-2}(\frac{a^4}{2^2})^2n = (\frac{a^3}{9})^2(\frac{a^4}{4})^2 = (\frac{a^6}{81})(\frac{a^8}{16}) = \frac{a^{14}}{81 \cdot 16}$
+- $(6^2 - 24)^2 \div (\frac{x}{y})^{-5} = 12^2 \div (\frac{y}{x})^5 = 12^2 \div \frac{y^5}{x^5} = 144 \cdot \frac{x^5}{y^5}$
+- $\frac{m^2n^3}{a^2c^{-3}} \cdot \frac{a^{-7}n^{-2}}{m^2c^4} = \frac{m^{2 - 2} \cdot n^3 \cdot a^{-7-2}}{c^{-3+4}} = \frac{n^1 \cdot a^{-9}}{c} = \frac{n}{ca^9}$
