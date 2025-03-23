@@ -101,9 +101,9 @@
 - Example: $x^2 + 4x + 1 = 0$
   1. Given a quadratic equation that cannot be factored, and with $a = 1$, first add or subtract the constant term to the right side of the equal sign
      - $x^2 + 4x = -1$
-  2. Multiply the $b$ term by $\frac{1}{2} and square it
+  2. Multiply the $b$ term by $\frac{1}{2}$ and square it
      - $\frac{1}{2}(4) = 2$
-     - $x^2 = 4$
+     - $2^2 = 4$
   3. Add $(\frac{1}{2}b)^2$ to both sides of the equal sign and simplify the right side. We have
      - $x^2 + 4x + 4 = -1 + 4$
      - $x^2 + 4x + 4 = 3$
@@ -166,7 +166,7 @@
 - Example: $a^2 + 4^2 = 12^12$
   - $a^2 + 16 = 144$
   - $a^2 = 128$
-  - $a = \sqrt{128} = \sqrt{2 \cdot 2 \cdot 2 \cdot 16$
+  - $a = \sqrt{128} = \sqrt{2 \cdot 2 \cdot 2 \cdot 16}$
   - $a = 8\sqrt{2}$
 
 
