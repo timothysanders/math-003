@@ -20,7 +20,7 @@
 - If an equation contains at least one rational expression, it is considered a **rational equation**. Rational numbers are ratios of two numbers, think $\frac{2}{3}$. A rational expression is the ratio, or quotient of two polynomials
 - Rational equations have a variable in the denominator in a least one of the terms, we want to move the variables to the numerator. One way to do this is to multiply both sides by the least common denominator (LCD).
   - To find the LCD, we identify an expression that contains the highest power of all the factors in all the denominators.
-- Example: $\frac{7}{2x} - \frac{5}{3x} = \frac{22}{3}
+- Example: $\frac{7}{2x} - \frac{5}{3x} = \frac{22}{3}$
   - The LCD must contain $2x$, $3x$, and $3$, the LCD $6x$ contains all of these.
   - Multiply each side by the LCD: $(6x)(\frac{7}{2x} - \frac{5}{3x}) = (\frac{22}{3})(6x)$
   - Distributive property: $(6x)(\frac{7}{2x}) - (6x)(\frac{5}{3x}) = (\frac{22}{3})(6x)$
