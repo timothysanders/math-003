@@ -214,3 +214,70 @@ In-class notes
     - $7x^2 - 27x + 15 = 0$
     - $x = \frac{27 \pm \sqrt{(-27)^2 - 4 \cdot 7 \cdot 15}}{14} = \frac{27 \pm \sqrt{309}}{14}$
     - $x = \frac{27}{14} \pm \frac{\sqrt{309}}{14}$
+- Discriminant
+  - If discriminant == 0, we have one rational solution (double solution)
+  - If discriminant > 0, and is a perfect square number (1, 4, 9, 64, etc.), then you have two different rational solutions
+  - If discriminant > 0, and is not a perfect square number, then you have two irrational conjugates
+  - If discriminant < 0, then you have two complex solutions
+  - If the first and third terms have different signs, you will not end up with complex conjugates
+  - If the first and third terms have the same signs, and the second term is large, then you will likely have two irrational conjugates 
+  - If discriminant < 0, you will have two complex conjugate roots
+  - $x^2 - 1x - 4 = 0$
+    - Solving by quadratic formula, we need to have only zero on one side
+    - Quadratic formula: $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$
+    - $x = \frac{-(-1) \pm \sqrt{(-1)^2 - 4 \cdot 1 \cdot (-4)}}{2 \cdot 1}$
+    - $x = \frac{1 \pm \sqrt{17}}{2}$
+    - Discriminant = 17
+    - Two irrational conjugates
+      - $\frac{1}{2} + \frac{\sqrt{17}}{2}$
+      - $\frac{1}{2} - \frac{\sqrt{17}}{2}$
+  - $x^2 - 1x + 4 = 0$
+    - $x = \frac{-(-1) \pm \sqrt{(-1)^2 - 4 \cdot 1 \cdot 4}}{2 \cdot 1}$
+    - $x = \frac{1 \pm \sqrt{-15}}{2}$
+    - $x = \frac{1 \pm i\sqrt{15}}{2}$
+    - Discriminant: -15
+    - Two irrational conjugates
+      - $\frac{1}{2} + i\frac{\sqrt{15}}{2}$
+      - $\frac{1}{2} - i\frac{\sqrt{15}}{2}$
+  - $x^2 - 3x + 2 = 0$
+    - $x = \frac{-(-3) \pm \sqrt{(-3)^2 - 4 \cdot 1 \cdot 2}}{2 \cdot 1}$
+    - $x = \frac{3 \pm \sqrt{1}}{2}$
+    - Discriminant: 1
+  - $x^2 - 4x + 4 = 0$
+    - $x = \frac{-(-4) \pm \sqrt{(-4)^2 - 4 \cdot 1 \cdot 4}}{2 \cdot 1}$
+    - $x = \frac{4 \pm \sqrt{0}}{2}$
+    - $x = 2$
+    - One double rational solution (one solution that counts twice)
+- "Math is about visualizing trajectories", functions describes the trajectory itself
+- With a parabola, you want to find
+  - when you cross the x-axis
+    - This is a rational/irrational solution (but are "real" solutions)
+  - the highest point of the parabola that never crosses x
+    - This is a complex solution
+  - the lowest point that never crosses x
+    - This is a complex solution
+  - the highest point of the parabola (if it never crosses the x-axis)
+- For conjugates of complex numbers, you can think of them as "flipping" across the x-axis, but only for the complex portion of the number
+  - For example, $4 + 2i$ has the conjugate of $4 - 2i$
+  - $\sqrt{-2} \cdot \sqrt{-8} = i\sqrt{2} \cdot i\sqrt{8}$
+  - $i^2\sqrt{16} = 4i^2 = -4$
+- Completing the square
+  - $-\frac{2}{3}x^2 + 5x - 1 = 0$
+    1. Make sure the free # is on the other side of the equals sign
+       - $-\frac{2}{3}^2 + 5x = 1$
+    2. Make sure the leading coefficient is equal to positive 1. Divide the entire equation by the current leading coefficient
+       - Or, multiply by the reciprocal
+       - $(-\frac{3}{2})(-\frac{2}{3} + 5x(-\frac{3}{2}) = 1(-\frac{3}{2}))$
+    3. Take the half of the linear coefficient, ignore its sign
+       - Multiply the linear coefficient by $\frac{1}{2}$
+       - $\frac{1}{2} \cdot \frac{15}{2} = \frac{15}{4}$
+    4. To both sides of your equation from step two, add the square of the number you got in step three
+       - $x^2 - \frac{15}{2}x + (\frac{15}{4})^2) = -\frac{3}{2} + (\frac{15}{4})^2$
+    5. The left side represents a perfect square, calculate right side
+       - $(x - \frac{15}{4})^2$
+       - $= -\frac{3}{2} + \frac{225}{16}$
+    6. Solve
+       - $(x - \frac{15}{4})^2 = \frac{201}{16}$
+       - $\sqrt{(x - \frac{15}{4})^2} = \sqrt{\frac{201}{16}}$
+       - $x - \frac{15}{4} = \frac{\sqrt{201}}4$
+       - $x = \frac{15}{4} \pm \frac{\sqrt{201}}{4}$
