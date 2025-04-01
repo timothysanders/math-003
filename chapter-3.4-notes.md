@@ -2,4 +2,80 @@
 
 ---
 In-class notes
-
+### Functions and composition of Functions
+- $f(x) = x^4 - x^2 - 2$
+- It is a function because there are two "letters" involved, $y$ and $x$
+- If you had $x^4 - x^2 -2 = 0$, this **is not** a function, it is just an equation
+  - This is "find the values of x where y is equal to zero"
+- A function, for every chosen x, you will have one unique y
+- When you have a function, you don't have a single "solution", but rather an infinite number of ordered pairs (x, y)
+  - x is your independent variable, y is your dependent variable
+- You could substitute single values of x (with a t-table) into your function to find values of y, but this is inefficient
+- For every function or graph, we are interested in the most important points
+  - x-intercept: (y = 0)
+  - y-intercept(s): (x = 0)
+  - end behavior: x -> $\infty$ or x -> $-\infty$
+  - min/max (if possible to know) - this is also called the vertex
+    - This is a calculus task, unless we are using quadratic functions and we can easily find the vertex
+  - When you find the x-intercept, you are finding where y = 0
+  - When you find the y-intercept, you are finding where x = 0
+- Anything that crosses the y-axis more than once is not a function, but rather a "relation"
+- $y = x^3 - x^2 - 4x + 4$
+  - This is a function, because it is not set equal to a specific value for y
+  - Let x = 0, this will be your y-intercept
+  - To find the x-intercept, with four terms, you can factor by grouping
+  - $x^2(x - 1) - 4(x - 1) = 0$
+  - $(x - 1)(x + 2)(x - 2) = 0$
+    - $x = 1; x = -2, x = 2$
+  - The interesting points are
+    - $(-2, 0)$
+    - $(0, 4)$
+    - $(1, 0)$
+    - $(2, 0)$
+- If you have $y = ax^{n}$ and n is even
+  - $a$ is positive The tails of the graph will both go up
+  - $a$ is negative, the tails of the graph will both go down
+- If you have $y = ax^n$ and $n$ is odd
+  - The branches will go in opposite directions
+  - If $a$ is greater than zero, the left side will be down, right side will be up
+  - If $a$ is less than zero, the left side will be up, right side will be down
+- In graphing polynomial functions, your leading coefficient and the degree of the highest exponent determine the appearance of your function
+### Composition of Functions
+- "Composition of functions" is when you apply a function on the output of another function
+- $y = f(x) = 3x - 5$
+- $h(x) = 2 - \frac{1}{2}x$
+- $g(x) = x^2$
+- You can "chain" multiple functions together to put the output of a function into the input of another
+- $g(h(f(x)))$
+  - $f(3) = 4$
+  - $h(4) = 0$
+  - $g(0) = 0$
+  - $g(h(f(3))) = 0$
+  - Start reading from innermost function and go outward
+- $g(f(h(0)))$
+  - $h(0) = 2$
+  - $f(2) = 1$
+  - $g(1) = 1$
+- $g(f(h(-2)))$
+  - $h(-2) = 3$
+  - $f(3) = 4$
+  - $g(4) = 16$
+- $f(h(g(2)))$
+  - $g(2) = 4$
+  - $h(4) = 0$
+  - $f(0) = -5$
+- $f(h(g(-3)))$
+  - $g(-3) = 9$
+  - $h(9) = -2.5$
+  - $f(-2.5) = -12.5$
+- $f(g(x))$
+  - You can replace the function with its definition
+  - $f(x^2) = 3x^2 - 5$
+- $g(f(x))$
+  - $g(3x - 5) = (3x - 5)^2$
+- $f(f(x))$
+  - $f(3x - 5) = 3(3x - 5) - 5$
+- $h(g(x))$
+  - $h(x^2) = 2 - \frac{1}{2}x^2$
+- $f(h(x))$
+  - $f(2 - \frac{1}{2}x) = 3(2 - \frac{1}{2}x) - 5$
