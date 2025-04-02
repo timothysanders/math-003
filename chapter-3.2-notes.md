@@ -1,4 +1,97 @@
 ## 3.2: Domain and Range
+### Finding the Domain of a Function Defined by an Equation
+- When determining domain and range, need to consider what is physically possible and meaningful in the real world, along with what is mathematically permitted
+- The domain can be considered a holding area that contains "raw materials" for the function, and the range is the holding area for the function's outputs
+- ![Domain and Range](images/figure-03.2.2.jpg)
+- Domain and range can be written in **interval notation**, which are values in brackets to describe a set of numbers
+  - The square bracket, `[`, is used when the set includes the endpoint and a parenthesis, `(` is used when the set does not include the endpoint (or that the interval is unbounded)
+  - Interval notation conventions
+    - Smallest number from the interval is written first
+    - Largest number is written second, following a comma
+    - Parentheses, `(` or `)`, are used to signify that the endpoint is not included (called exclusive)
+    - Brackets, `[` or `]`, are used to indicate than an endpoint value is included (called inclusive)
+  - ![Interval Notation](images/figure-03.2.3.jpg)
+- Finding the domain of a function whose equation is provided often involves remembering three different forms
+  1. If the function has no denominator, the domain could be all real numbers
+  2. If there is a denominator, exclude values in the domain that make the denominator zero
+  3. If there is an even root, exclude values that would make the radicand negative
+##### How To
+- Given a function written in equation form, find the domain
+  1. Identify the input values
+  2. Identify any restrictions on the input and exclude those values from the domain
+  3. Write the domain in interval form, if possible
+##### How To
+- Given a function written in an equation form that includes a fraction, find the domain
+  1. Identify the input values
+  2. Identify any restrictions on the input. If there is a denominator in the function's formula, set the denominator equal to zero and solve for x. If the function's formula contains an even root, set the radicand greater than or equal to 0, then solve.
+  3. Write the domain in interval form, making sure to exclude any restricted values from the domain
+##### How To
+- Given a function written in equation form including an even root, find the domain
+  1. Identify the input values
+  2. Since there is an even root, exclude any real numbers that result in a negative number in the radicand. Set the radicand greater than or equal to zero and solve for x
+  3. The solution(s) are the domain of the function. If possible, write the answer in interval form
+
+### Using Notations to Specify Domain and Range
+- In addition to using inequalities and lists to describe domains of functions, you can use inequalities and other statements to describe sets of values, such as **set-builder notation**. An example is $\{x|10 \leq x \lt 30\}$
+  - The braces are read as "the set of" and the vertical bar is "such that"
+- You can use the union symbol $\cup$ to combine two unconnected intervals
+##### Set-builder Notation and Interval Notation
+- **Set-builder notation** is a method of specifying a set of elements that satisfy a certain condition, such as $\{x | 4 \lt x \leq 12\}$
+- **Interval notation** is a way of describing sets that include all real numbers between a lower limit (that may or may not be included) and an upper limit (that may or may not be included). A square bracket indicates inclusion in the set, and a parenthesis indicates exclusion
+##### How To
+- Given a line graph, describe the set of values using interval notation
+  1. Identify the intervals to be included in the set by determining where the heavy line overlays the real line
+  2. At the left end of each interval, use `[` with each end value to be included in the set (solid dot) or `(` for each excluded end value (open dot)
+  3. At the right end of each interval, use `]` with each end value to be included in the set (solid dot) or `)` for each excluded end value (open dot)
+  4. Use the union symbol $\cup$ to combine all intervals into one set
+
+### Finding Domain and Range from Graphs
+- You can also identify domain and range of functions by using graphs. Because the domain is the set of possible input values, the domain of a graph includes all input values shown on the x-axis. The range is the set of possible output values, shown on the y-axis. Remember that domain and range may be greater than visible values
+- ![Domain and Range Graph](images/figure-03.2.8.jpg)
+  - In this example, the domain is $[-5, \infty)$ and the range is $(-\infty, 5]$
+
+### Finding Domains and Ranges of the Toolkit Functions
+#### Constant Function
+- ![Constant Function](images/figure-03.2.13.jpg)
+#### Identity Function
+- ![Identity Function](images/figure-03.2.14.jpg)
+#### Absolute Value Function
+- ![Absolute Value Function](images/figure-03.2.15.jpg)
+#### Quadratic Function
+- ![Quadratic Function](images/figure-03.2.16.jpg)
+#### Cubic Function
+- ![Cubic Function](images/figure-03.2.17.jpg)
+#### Reciprocal Function
+- ![Reciprocal Function](images/figure-03.2.18.jpg)
+#### Reciprocal Squared Function
+- ![Reciprocal Squared Function](images/figure-03.2.19.jpg)
+#### Square Root Function
+- ![Square Root Function](images/figure-03.2.20.jpg)
+#### Cube Root Function
+- ![Cube Root Function](images/figure-03.2.21.jpg)
+##### How To
+- Given the formula for a function, determine the domain and range
+  1. Exclude from the domain any input values that result in division by zero
+  2. Exclude from the domain any input values that have nonreal (or undefined) number outputs
+  3. Use the value input values to determine the range of the output values
+  4. Look at the function graph and table values to confirm the actual function behavior
+
+### Graphing Piecewise-Defined Functions
+- Sometimes functions require more than one formula to obtain a given output. The absolute value function is an example of a piecewise function. A **piecewise function** is a function in which more than one formula is used to define the output over different pieces of the domain. Tax brackets are an example of piecewise functions
+##### Piecewise Function
+- A **piecewise function** is a function in which more than one formula is used to define the output. Each formula has its own domain, and the domain of the function is the union of all these smaller domains
+- In piecewise notation, the absolute value function is below
+- $$ |x| = 
+  \begin{cases}
+  x & \text{if } x \ge 0,\\
+  -x & \text{if } x < 0
+  \end{cases}
+  $$
+##### How To
+- Given a piecewise function, write the formula and identify the domain for each interval
+  1. Identify the intervals for which different rules apply
+  2. Determine the formulas that describe how to calculate an output from an input in each variable
+  3. Use braces and if-statements to write the function
 
 ---
 In-class notes
