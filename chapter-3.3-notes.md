@@ -1,4 +1,46 @@
 ## 3.3 Rates of Change and Behavior of Graphs
+### Finding the Average Rate of Change of a Function
+- The **rate of change** describes how an output quantity changes relative to the change in the input quantity. If we use only the beginning and ending data, we are finding the **average rate of change** over a specified time. To find this rate of change, divide the change in the output value by the change in the input value.
+  - $\text{Average rate of change} = \frac{\text{Change in output}}{\text{Change in input}}$
+    - $= \frac{\Delta{y}}{\Delta{x}}$
+    - $= \frac{y_2 - y_1}{x_2 - x_1}$
+- The greek letter $\Delta$ (delta) is used to signify the change in quantity
+##### Rate of Change
+- A rate of change describes how an output quantity changes relative to the change in the input quantity. The units on a rate of change are "output units per input units"
+- The average rate of change between two input values is the total change of the function values (output values) divided by the change in the input values
+  - $\frac{\Delta y}{\Delta x} = \frac{f(x_2) - f(x_1)}{x_2 - x_1}$
+##### How To
+- Given the value of a function at different points, calculate the average rate of change of a function for the interval between two values $x_1$ and $x_2$
+  1. Calculate the difference $y_2 - y_1 = \Delta y$
+  2. Calculate the difference $x_2 - x_1 = \Delta x$
+  3. Find the ratio $\frac{\Delta y}{\Delta x}$
+
+### Using a Graph to Determine Where a Function is Increasing, Decreasing, or Constant
+- As a part of how functions change, we can identify intervals where the function is changing in specific ways, such as increasing, decreasing, or constant
+- A function is increasing on an interval if the function values increase as the input values increase within that interval
+  - The average rate of change is positive
+- A function is decreasing on an interval if the function values decrease as the input values increase within that interval
+  - The average rate of change is negative
+- Some functions are increasing/decreasing over their entire domain, while others do not
+- A value of the input where a function changes from increasing to decreasing is the location of a **local maximum**, if a function has more than one of these points, it has **local maxima**.
+- In the same way, where a function changes from decreasing to increasing is a **local minimum**, with multiple being called **local minima**.
+- To locate the local maxima and minima from a graph, we need to observe where the graph has its lowest and highest points
+##### Local Minima and Local Maxima
+- A function $f$ is an **increasing function** on an open interval if $f(b) \gt f(a)$ for any two input values $a$ and $b$ in the given interval where $b \gt a$
+- A function $f$ is a **decreasing function** on an open interval if $f(b) \lt f(a)$ for any two input values $a$ and $b$ in the given interval where $b \gt a$
+- A function $f$ has a local maximum at $x = b$ if there exists an interval $(a, c)$ with $a \lt b \lt c$ such that, for any $x$ in the interval $(a, c), f(x) \leq f(b)$. Likewise, $f$ has a local minimum at $x = b$ if there exists an interval $(a, c)$ with $a \lt b \lt c$ such that, for any $x$ in the interval $(a, c)$, $f(x) \geq f(b)$
+
+### Analyzing the Toolkit Functions for Increasing or Decreasing Intervals
+- ![Constant, Indentity, Quadratic](images/figure-03.3.10.jpg)
+- ![Cubic, Reciprocal, Reciprocal Squared](images/figure-03.3.11.jpg)
+- ![Cube Root, Square Root, Absolute Value](images/figure-03.3.12.jpg)
+
+### Use a Graph to Locate the Absolute Maximum and Absolute Minimum
+- The y-coordinates (output) of the highest and lowest points on the entire graph are called the **absolute maximum** and **absolute minimum**. Note that not every function has these.
+##### Absolute Maxima and Minima
+- The **absolute maximum** of $f$ at $x = c$ is $f(c)$ where $f(c) \geq f(x)$ for all $x$ in the domain of $f$.
+- The **absolute minimum** of $f$ at $x = d$ is $f(d)$ where $f(d) \leq f(x)$ for all $x$ in the domain of $f$.
+
 
 ---
 In-class notes
