@@ -78,3 +78,174 @@
   2. Substitute $x = h$ into the general form of the quadratic function to find $k$
   3. Rewrite the quadratic in standard form using $h$ and $k$
   4. Solve for when the output of the function will be zero to find the x-intercepts
+
+---
+In-class Notes
+- Links
+  - [Standard form](#standard_form)
+- Generally speaking, polynomial functions look like
+- $y = f(x) = p(x) = a_nx^n + a_{n - 1}x^{n - 1} + a_{n - 2}x^{n - 2} + ... + a_2x^2 + a_1x^1 + a_0$
+- $y = 3x^7 - 5x^6 + 2x^3 - 9x + 6$
+  - The highest degree signifies the direction the branches of the graphs go
+  - $a_n$ is the number with the highest degree next to x
+  - In our example about $a_7 = 3$, since this is leading coefficient is positive/greater than 0 and the highest degree is odd, the left hand side of the graph points down and the right side points up
+  - $a_6 = -5; a_5 = 0; a_4 = 0; a_3 = 2; a_2 = 0; a_1 = -9, a_0 = 6$
+- Important points
+  - y-intercept: easy to find, set x = 0 and solve, in this instance $(0, 6)$
+  - x-intercept: set y = 0 and solve; you should have one solution for each degree of the function, in this instance 7
+    - Some of them can be complex numbers, and some can be repeating, and some will be rational numbers
+## Quadratic Functions
+- Parabola is the graph of a quadratic function
+  - $y = ax^2 + bx + c$
+  - Important points in quadratic functions
+    - Axis of symmetry, all quadratic functions have this, where 
+    - Vertex: vertex is one of the points (minimum/"saddle" or maximum/"summit") through which the axis of symmetry passes
+      - vertex $x = -\frac{b}{2a}$
+      - Has special notation: $(h, k)$
+- Graphing any quadratic function
+  - $y = -3x^2 - 5x + 2$
+  1. Identify $a$, use the template $y = ax^2 + bx + c$
+     - $a = -3$ so the graph opens downward
+  2. Find y-intercept, set x = 0
+     - $y = -3(0)^2 - 5(0) + 2; y = 2$
+     - $(0, 2)$
+  3. Find x-intercept, set y = 0
+     - $-3x^2 - 5x + 2 = 0$
+     - $3x^5 + 5x - 2 = 0$
+     - $(3x - 1)(x + 2) = 0$
+     - $x = \frac{1}{3}; x = -2$
+  4. Find the vertex
+     - $h = x = -\frac{b}{2a} = -\frac{-5}{2(-3)} = -\frac{5}{6}$
+     - $h = \frac{x_1 + x_2}{2} = \frac{-2 + \frac{1}{3}}{2} = -\frac{5}{6}$
+     - $k = y$
+       - Plug your $h$ value into the original equation
+       - $k = -3(-\frac{5}{6})^2 - 5(-\frac{5}{6}) + 2$
+       - $= -\frac{25}{12} + \frac{25}{6} + 2$
+       - $= \frac{-25 + 50 + 24}{12} = \frac{49}{12} = 4\frac{1}{12}$
+     - **THE FIRST NUMBER IS ALWAYS HALF OF THE SECOND NUMBER OF THE VERTEX AND THEY HAVE OPPOSITE SIGNS**
+  5. Find axis of symmetry
+     - $x = -\frac{5}{6}$
+  6. Find domain and range
+     - For any quadratic function, range is all real numbers
+     - Range = $(-\infty, \infty)$
+     - Domain = $(-\infty, 4\frac{1}{12}]$
+- $y = \frac{2}{5}x^2 - x + 3$
+  1. Identify $a$, $b$, and $c$
+     - $a = \frac{2}{5}$
+       - Because $a \gt 0$, the arms of the parabolas go up
+     - $b = -1$
+     - $c = 3$
+  2. Find y-int; set x = 0
+     - $y = 3$
+  3. Find x-int; set y = 0
+     - $\frac{2}{5}x^2 - x + 3 = 0$
+     - $5\cdot\frac{2}{5}x^2 - x\cdot5 + 3\cdot5 = 0\cdot5$
+     - $2x^2 - 5x + 15 = 0$ now $a = 2$, $b = -5$, $c = 15$
+     - $x = \frac{-(-5)^2 \pm \sqrt{(-5)^2 - 4 \cdot 2 \cdot 15}}{2 \cdot 2}$
+     - $x = \frac{5 \pm i\sqrt{95}}{4}$
+     - Solutions are complex numbers, which means that you do not cross the x-axis
+  4. Find vertex
+     - $h = x = \frac{-b}{2a} = \frac{-(-1)}{2\cdot\frac{2}{5}} = \frac{1}{\frac{4}{5}} = \frac{5}{4}$
+     - $k = y = \frac{2}{5}(\frac{5}{4})^2 - (\frac{5}{4}) + 3$
+     - $\frac{5}{8} - \frac{5}{4} + 3$ - verify that the first number is half of the second and has an opposite sign
+     - $\frac{5 - 10 + 14}{8} = \frac{19}{8} = 2\frac{3}{8}$
+     - $(h, k) = (\frac{5}{4}, 2\frac{3}{8})$
+  5. Axis of symmetry
+     - $x = \frac{5}{4} = h$
+  6. Find domain and range
+     - Domain = $(-\infty, \infty)$
+     - Range = $[2\frac{3}{8}, \infty)$
+- **FOR QUADRATIC FUNCTIONS ONLY, YOU ARE LOOKING FOR THE VERTEX**
+- If your quadratic function is not written in standard form
+  - $y = -2(x - 5)^2 + 4$
+    - **"Vertex form function"**
+    - General form: $y = a(x - h)^2 - k$
+    - You have the vertex explicitly provided to you $(h, k)$, which is $(5, 4)$ in this example
+      - Remember that $h$ is the opposite of what you have in the vertex form formula
+    - You need to find the y-intercept (let x=0)
+      - $y = -2(0 - 5)^2 + 4$
+      - $y = -50 + 4$
+      - $(0, -46)$
+    - You need to find the x-intercept (let y=0)
+      - $-2(x - 5)^2 = -4$
+      - $(x - 5)^2 = 2$
+      - $\sqrt{(x - 5^2)} = \sqrt{2}$
+      - $x - 5 = \pm \sqrt{2}$
+      - $x = 5 \pm \sqrt{2}$
+    - You need to find the domain and range
+      - Domain: $x = (-\infty, \infty)$
+      - Range: $y = (-\infty, 4]$
+  - $y = -\frac{1}{2}(x + 3)(x - 1)$
+    - **"Factored form"**
+    - General form: $y = a(x - x_1)(x - x_2)$
+    - You have x-intercepts explicitly given to you, in this example, $x = -3$ and $x = 1$
+    - You need to find the y-intercept, let x=0
+      - $y = -\frac{1}{2}(0 + 3)(0 - 1)$
+      - $y = -\frac{1}{2}(3)(-1)$
+      - $y = \frac{3}{2}$
+    - You need to find the vertex
+      - $h = \frac{x_1 + x_2}{2} = \frac{-3 + 1}{2} = -1$
+      - To get $k$, plug in $h$ into the original function
+      - $y = -\frac{1}{2}(-1 + 3)(-1 - 1) = 2$
+      - $(h, k) = (-1, 2)$
+    - Domain: All real numbers
+    - Range: $(-\infty, 2]$
+  - $y = 3x^2 - x - 2$
+    - <a name="standard_form">**"Standard form"**</a>
+    - General form: $y = ax^2 + bx + c$
+    - This has no explicit info about the graph, except for the y-intercept $(0, c)$
+    - You must find the vertex, $(h, k)$, and x-intercept
+    - To find the x-intercepts, either factor or use the quadratic equation
+## Polynomial Functions
+- $y = x^4 - 3x^2 - 4$
+  - "Standard form"
+  - Determine $n$, which in this example is $n = 4$
+  - $a = 1$, so graph opens upward
+  - Find y-intercept, let x=0
+    - $y = -4$, so $(0, -4)$
+  - Find x-intercept, let y=0
+    - $x^4 - 3x^2 - 4 = 0$
+    - Can use substitution here, so $p = x^2$
+    - $p^2 - 3p - 4 = 0$
+    - $(p - 4)(p + 1) = 0$
+    - $p = 4; p = -1$
+    - $x^2 = 4; x^2 = -1$
+    - $x = \pm2$
+    - $x = \pm i$
+- $y = -5(x - 3)(x + 2)(x - 1)$
+  - "Factored form"
+  - Entire process of polynomial functions is to get to factored form
+  - Neither $n$ nor $a$ are given to you
+  - For $n$, "how many x's are in the parentheses?"
+    - $n = 3$
+  - For $a$, take the first number is the leading coefficient and multiply it by numbers next to x
+  - y-intercept, let x = 0
+    - $y = -5(0 - 3)(0 + 2)(-1) = -3$
+- $y = x^3 - x^2 - 3x + 3$
+  - $n = 3$
+  - $a = 1$
+  - y-intercept = $(0, 3)$
+  - Factor by grouping
+    - $(x^3 - x^2)(-3x + 3)$
+    - $y = x^2(x - 1)-3(x - 1)$
+    - $y = (x^2 - 3)(x - 1)$
+    - $x = 1; x = \pm\sqrt{3}$
+    - 
+- $y = 3(5 - x)(4 - x)^4x^3(1 - 2x)$
+  - $n = 9$
+  - $a = (3 \cdot -1 \cdot (-1)^4 \cdot 1 \cdot (-2)) = 6$
+- $y = 2(x - 3)(x + 2)(x - 1)^2x$
+  - n = 5
+  - a = 2
+  - y-intercept =
+  - **IF MULTIPLICITY IS 2 (EVEN, OR 4, 6, ETC.), YOU JUST TOUCH THE X-AXIS AND "BOUNCE BACK" AT THAT PARTICULAR POINT**
+    - $x = 3; x = -2; x = 1 (\text{multiplicity }2); x = 0$
+  - **IF MULTIPLICITY IS 3 (ODD, OR 5, 7, ETC.), YOU PASS THROUGH THE POINT ON THE X-AXIS**
+- $y = -2(3 - x)(4 - x)^2x^3(x^2 - 1)$
+  - $n = 8$
+  - $x = 3; x = 4; x = 0 (\text{multiplicity }3); x = \pm 1$
+- $y = 3(5 - x)(4 - x)^4x^3(1 - 2x)$
+  - $x = 5; x = 4 (\text{multiplicity }4); x = 0 (\text{multiplicity }3); x = \frac{1}{2}$
+- For odd degree polynomials, the range is all real numbers
+- "Describe end behavior"
+  - What happens when x goes to $\infty$ and $-\infty$?
