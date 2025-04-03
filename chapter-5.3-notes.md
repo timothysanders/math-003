@@ -1,0 +1,1 @@
+## 5.3: Graphs of Polynomial Functions
