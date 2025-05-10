@@ -1,0 +1,45 @@
+## 6.1: Exponential Functions
+### Identifying Exponential Functions
+
+---
+In-class notes
+- For exponential functions, domain is all real numbers, y > 0, horizontal asymptote: y = 0
+- 1 always pairs up with the base itself
+- 0 pairs up with 1
+- -1 pairs up with the reciprocal of the base
+- What is within the parentheses with x (independent variable) is a left/right shift
+  - Subtraction shifts the graph to the right
+  - $2^{x - 1}$ means you shift the graph to the right
+  - Each x coordinate of your ordered pairs gets one added to it
+  - Addition shifts the graph to the left
+  - $2^{x + 1}$ means you shift the graph to the left
+  - Each x coordinate of your ordered pairs gets one subtracted from it
+- If something is outside the parentheses with y (dependent variable) it is an up/down shift
+  - Subtraction shifts the graph down
+  - $2^x - 1$ shifts the graph down
+  - Addition shifts the graph up
+  - $2^x + 1$ shifts the graph up
+  - For translations to the dependent variable, you apply them to the horizontal asymptote as well
+- These are "rigid" translations
+- To begin graphing an exponential function, you need to isolate the "parent function"
+  - Original function: $f(x) = -2 \cdot (\frac{1}{3})^{x+2} - 1$
+  - Parent function: $y = (\frac{1}{3})^x$
+  - Then you add items that affect x
+  - Next step: $y = (\frac{1}{3})^{x + 2}$
+  - Next step: $y = -2 \cdot (\frac{1}{3})^{x + 2}$
+  - Next step: $y = -2 \cdot (\frac{1}{3})^{x + 2} - 1$
+- $y = f(cx)$
+  - each x value is multiplied by the factor of $\frac{1}{c}$
+- $y = cf(x)$
+  - each y value is multiplied by factor of $c$
+- Find an exponential function that passes through the two points
+  - $y = a \cdot b^x$
+    - (0, 6) and (3, 750)
+    - $6 = c \cdot b^0$
+      - $a = 6$
+    - $750 = c \cdot b^3$
+      - $\frac{750}{6} = \frac{6}{6} \cdot b^3$
+      - $\sqrt[3]{b^3} = \sqrt[3]{125}$
+      - $b = 5$
+    - $y = 6 \cdot 5^x$
+  - 
