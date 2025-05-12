@@ -1,1 +1,73 @@
 ## 5.2: Power Functions and Polynomial Functions
+
+---
+In-class notes
+- Power functions and polynomial functions
+  - Power function has a single term raised to a fixed positive integer power
+    - It cannot be a fraction or a negative integer power
+    - Power function only has a variable in the base
+  - Polynomial function is a function that has a positive integer (non-fractional) degree of one variable
+    - For example, $y = x^2$ is a polynomial function
+    - Linear function is also a polynomial function
+  - You have as many solutions (real/complex) as the term of highest degree
+- When visualizing functions, look to the leading coefficient
+  - If the leading coefficient is negative, then the right hand side of the graph is pointed down
+  - If the leading coefficient is positive, then the right hand side of the graph is pointed up
+- Look to the term of highest degree
+  - If you have an odd degree, then the "arms" of the functions are pointed in different directions
+  - If you have an even degree, then the "arms" of the functions are pointed in the same directions
+  - Odd degree functions always cross the x-axis
+  - Even degree functions may not cross the x-axis
+- Quadratic function formats
+  - Standard
+    - $y = ax^2 + bx + c$
+  - Vertex
+    - $y = a(x - h)^2 + k$
+  - Factored
+    - $y = a(x - x_1)(x - x_2)$
+  - Other
+    - Need to remove parentheses and start over
+- If you have a quadratic graph...
+  - Where the line crosses the x-axis
+    - Then you have two real solutions
+  - If the line just touches, you have one double (multiplicity) real root solution
+  - If the graph does not cross the x-axis
+    - Then you have two complex solutions (no real solutions)
+      - Complex solutions always come in conjugate pairs
+- Vertex
+  - $(h, k)$
+  - part of the vertex can be found with $h = -\frac{b}{2a}$
+- End behavior
+  - "As x goes to $\pm\infty$"
+  - $y = ax^n$
+- Symmetry
+  - Symmetry about the y-axis
+    - $y = ax^n$
+    - This only applies to even powers (but not all even power functions)
+      - $f(x)$ and $f(-x)$ both have the same y
+    - Functions that satisfy this condition are called "even functions"
+      - Note that even degree functions are not necessarily "even functions" as they are not symmetric about the y-axis
+      - For an even function, it is essential to have all even degrees
+  - Symmetry about origin
+    - These are odd power functions
+    - These are called "odd functions"
+    - $f(x) = -f(-x)$
+    - For an odd function, it is essential that you have all odd degrees
+  - If a function has even and odd degrees, then it is not symmetric about the y-axis or origin
+  - $y = x^6 - 3x^4 + 1$
+    - Polynomial function
+    - Even degree function
+    - $f(-x) = (-x)^6 - 3(-x)^4 + 1 = x^6 - 3x^4 + 1$
+    - This is an "even function" because both $f(x)$ and $f(-x)$ return the same value
+  - $y = x^5 - 4x$
+    - This is an odd degree function
+    - $f(-x) = (-x)^5 - 4(-x) = -x^5 + 4x = -(x^5 - 4x) = -f(x)$
+  - $y = x^7 - x^6 + 4x^2 - 1$
+    - $f(-x) = (-x)^7 - (-x)^6 + 4(-x)^2 - 1 = -x^7 - x^6 + 4x^2 - 1$
+    - This is an odd power function
+    - But, this is not an "odd function"
+- $f(x) = 0.2(x - 2)(x + 1)(x - 5)$
+  - This is in factored form
+  - degree is three
+  - to check leading coefficient, check the sign of all x
+  - To get y-intercept, let x = 0
